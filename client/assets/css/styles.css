@@ -76,7 +76,7 @@ header nav .menu-button {
 .section-1 {
   padding: 100px 2.5rem 1.5rem;
   height: 100vh;
-  background: url("./images/desktop/image-header.jpg") no-repeat;
+  background: url("../../../images/desktop/image-header.jpg") no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -521,7 +521,7 @@ footer .media-links {
 
 @media (max-width: 500px) {
   .section-1 {
-    background: url("./images/mobile/image-header.jpg") no-repeat;
+    background: url("../../../images/mobile/image-header.jpg") no-repeat center;
     background-size: cover;
   }
 }
