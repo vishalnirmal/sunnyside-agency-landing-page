@@ -15,10 +15,10 @@ $white: hsl(0, 0%, 100%);
 
 
 // desktop
-$header: url("./images/desktop/image-header.jpg");
+$header: url("../../../images/desktop/image-header.jpg") no-repeat center;
 
 // mobile
-$header-mobile: url("./images/mobile/image-header.jpg");
+$header-mobile: url("../../../images/mobile/image-header.jpg") no-repeat center;
 
 
 $barlow: 'Barlow', sans-serif;
@@ -81,7 +81,7 @@ header{
 .section-1{
     padding: 100px 2.5rem 1.5rem;
     height: 100vh;
-    background: $header no-repeat;
+    background: $header;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -413,7 +413,7 @@ footer{
 
 @media (max-width: 500px){
     .section-1{
-        background: $header-mobile no-repeat;
+        background: $header-mobile;
         background-size: cover;
     }
 }
